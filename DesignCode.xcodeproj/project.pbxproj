@@ -11,6 +11,8 @@
 		D3830C7929482DD600FE2998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3830C7829482DD600FE2998 /* ContentView.swift */; };
 		D3830C7B29482DD600FE2998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3830C7A29482DD600FE2998 /* Assets.xcassets */; };
 		D3830C7E29482DD600FE2998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3830C7D29482DD600FE2998 /* Preview Assets.xcassets */; };
+		D3830C852949F77A00FE2998 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3830C842949F77A00FE2998 /* Styles.swift */; };
+		D3830C87294A984A00FE2998 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3830C86294A984A00FE2998 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D3830C7829482DD600FE2998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3830C7A29482DD600FE2998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3830C7D29482DD600FE2998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3830C842949F77A00FE2998 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		D3830C86294A984A00FE2998 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				D3830C7629482DD600FE2998 /* DesignCodeApp.swift */,
 				D3830C7829482DD600FE2998 /* ContentView.swift */,
+				D3830C842949F77A00FE2998 /* Styles.swift */,
 				D3830C7A29482DD600FE2998 /* Assets.xcassets */,
 				D3830C7C29482DD600FE2998 /* Preview Content */,
+				D3830C86294A984A00FE2998 /* AccountView.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3830C87294A984A00FE2998 /* AccountView.swift in Sources */,
+				D3830C852949F77A00FE2998 /* Styles.swift in Sources */,
 				D3830C7929482DD600FE2998 /* ContentView.swift in Sources */,
 				D3830C7729482DD600FE2998 /* DesignCodeApp.swift in Sources */,
 			);
